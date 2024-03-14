@@ -1,0 +1,5 @@
+# Ignore virtual environment
+venv/
+
+# Ignore static files (if generated during development)
+staticfiles/

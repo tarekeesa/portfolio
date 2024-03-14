@@ -1,0 +1,665 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DevFolio Bootstrap Portfolio Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href=" {% static 'vendor/bootstrap/css/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Tarek Eissa</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url({% static 'img/tarek.jpg' %})">
+    
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Tarek Eissa</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Data Scientist, Developer, Deep Learning, Computer Vision"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        
+                        <img src="{% static 'img/tarek-EDIT.jpg' %}" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Tarek Eissa</span></p>
+                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>tarekeesa7@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(050) 308 9392</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>Python (Django, Flask, FastAPI)</span> <span class="pull-right">Expert</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Data Science (Data Analysis, Machine Learning Modeling, Deep Learning, Data Visualization, Data Streaming, Databricks, Computer Vision, NLTK, OpenCV, Data Cleaning/Quality/Transformation/Optimization)</span> <span class="pull-right">Expert/Experienced</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Javascript (Core, jQuery, Ajax)</span> <span class="pull-right">Experienced</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Web Development (React, Node.js)</span> <span class="pull-right">Experienced</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Operating Systems (Linux - Ubuntu, Kali)</span> <span class="pull-right">Expert</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>DevOps (Docker, Kubernetes, Ingress, Helm)</span> <span class="pull-right">Skilful</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Networking (Web Sockets, WebRTC Streaming)</span> <span class="pull-right">Skilful</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Programming (Data Structures & Algorithms - Python)</span> <span class="pull-right">Experienced</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Blockchain (Solidity, Ether.js, Web3.js)</span> <span class="pull-right">Intermediate</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Architecture (Microservices, Monolith, MVC)</span> <span class="pull-right">Experienced</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Database (Structured: PostgreSQL, MySQL; Unstructured: MongoDB)</span> <span class="pull-right">Experienced/Skilful</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      With over seven years of experience in the tech industry as a full stack developer,
+                      I am a seasoned Python developer with a special focus on data analysis and machine learning and Big data analysis using Spark and databricks.
+                      I have a solid track record in the deployment and maintenance of various cloud-based platforms,
+                      utilizing technologies such as AWS, Docker, and Kubernetes.
+                       has not only allowed me to solve complex problems, but also to drive strategic decision-making based on data-driven insights.
+                    </p>
+                    <p class="lead">
+                      My hands-on experience extends to the development and implementation of machine learning and Deep learning modeling.
+                      
+                    </p>
+                    <p class="lead">
+                      I have applied these skills across different industries, recently contributing to the design of psychometric tests, computer vision applications for the transportation sector.
+                      My proficiency in these areas
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+<section id="services" class="services-mf pt-5 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Services
+          </h3>
+          <p class="subtitle-a">
+            Discover how I can help you achieve your goals.
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Data Analysis and Insights Services</h2>
+            <p class="s-description text-center">
+              Utilizing my expertise in Python, data analysis, and machine learning, I offer comprehensive data analysis services to businesses across various industries. This includes analyzing customer feedback, market trends, or operational data to provide actionable insights for strategic decision-making.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">AI and Computer Vision Solutions</h2>
+            <p class="s-description text-center">
+                With my expertise in artificial intelligence and computer vision, I offer cutting-edge solutions tailored to your specific needs. Using advanced algorithms and techniques, I can develop AI-powered systems that analyze images and videos, extract valuable insights, and automate tasks with precision and efficiency. Whether you need object detection, facial recognition, or video analytics, I can help you harness the power of AI to enhance your business operations, improve decision-making, and deliver exceptional user experiences.
+            </p>
+        </div>
+        
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Business Intelligence and Data Visualization</h2>
+            <p class="s-description text-center">
+              With my proficiency in data visualization tools and techniques, I help businesses transform their raw data into visually compelling dashboards and reports. This involves creating interactive data visualizations to track key performance indicators, identify trends, and communicate insights effectively to stakeholders.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Web Development and DevOps Consulting</h2>
+            <p class="s-description text-center">
+              Drawing on my experience as a full-stack developer and knowledge of DevOps technologies, I provide consulting services to help businesses build and optimize their web applications. This includes advising on technology stack selection, implementing best practices for scalability and reliability, and optimizing infrastructure using Docker, Kubernetes, and other DevOps tools.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Training and Workshops</h2>
+            <p class="s-description text-center">
+              Capitalizing on my extensive knowledge and professional education in data science, web development, and related technologies, I offer training workshops and seminars to organizations seeking to upskill their teams. This includes customized training programs on topics such as Python programming, data analysis, machine learning, web development best practices, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">AI-Powered Customer Support Enhancement</h2>
+            <p class="s-description text-center">
+              I develop AI-powered solutions to enhance customer support experiences. Implementing natural language processing (NLP) algorithms, I analyze and respond to customer inquiries effectively. By utilizing machine learning models, I automate ticket routing and prioritize customer issues. I design chatbot systems to handle common customer queries and provide real-time assistance. Integrating sentiment analysis techniques, I gauge customer satisfaction levels and identify areas for improvement. Additionally, I develop custom analytics dashboards to monitor and optimize customer support performance and provide consultation on leveraging AI technologies to streamline customer support workflows and improve overall service quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">Tasks COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">TOTAL Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">AWARD WON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Showcase of my projects
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/roadlsinksite.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/roadlsinksite.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Full LMS System with psychometric test creating</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Full stack Developer</span> / <span class="w-date">10 Oct. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/kubernetes cluster monitoring.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/kubernetes cluster monitoring.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Kubernete Cluster Monitoring</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Cloud Architectures, Kubernetes Docker, Promethus, Garafana, CI/CD</span> / <span class="w-date">18 Sep. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              
+              <a href="{% static 'img/ecommcer_vandor_managemtn.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/ecommcer_vandor_managemtn.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Comprehensive E Commerce site Solution B2B, B2C.</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Full Stack Developement, Blockchain</span> / <span class="w-date">1 Jan. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/ecommerce users panel.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/ecommerce users panel.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Real Time chat Application and Notificatoin System with Email Marketing</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Socket</span> / <span class="w-date">Jul. 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/computer vision.jpeg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/computer vision.jpeg' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Computer Vision Application, Emotion Detection, Facial Login System, Happiness measurement system</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Computer Vision, OpenCv, Yolov8, GPU clustering, </span> / <span class="w-date">20 Dec. 2023</span>
+                    </div> 
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/Data.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/Data.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Cleanning, Transformning, Modeling, Real Time Analytics, Dashboards, 2D/3D Charts</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">data science, Spark, ML, NLP,Tensorflow, Pytourch, LLM models, Fining Tuning </span> / <span class="w-date">1 Oct. 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/react app.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/react app.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Building Resutfull API soluition with React, Nodes, MongoDB, PostgreSQL.</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory"></span> Microservices,Async ,PWA , Websocket, Entreprise soultion, Scalable<span class="w-date">1 Oct. 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/Data.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'img/Data.png' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Cleanning, Transformning, Modeling, Real Time Analytics, Dashboards, 2D/3D Charts</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">data science, Spark, ML, NLP,Tensorflow, Pytourch, LLM models, Fining Tuning </span> / <span class="w-date">1 Oct. 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="" method="post" role="form" class="php-email-form">
+                        {% csrf_token %}
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        For Direct inquiere send me directly
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span>Dubia Regga Al Maktoon road</li>
+                        <li><span class="bi bi-phone"></span> (050) 308 9392</li>
+                        <li><span class="bi bi-envelope"></span> tarekeesa7@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- =k====== Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>Tarek Eissa</strong>. All Rights Reserved</p>
+            <div class="credits">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src=" {% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="  {% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
